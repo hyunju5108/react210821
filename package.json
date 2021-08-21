@@ -1,0 +1,23 @@
+{
+  "name": "react210821",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunju5108/react210821.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunju5108/react210821/issues"
+  },
+  "homepage": "https://github.com/hyunju5108/react210821#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
