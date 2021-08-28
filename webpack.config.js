@@ -13,6 +13,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'), // 어디다 빌드된 결과물을 저장할지.
     filename: 'bundle.[hash].js',
+    publicPath: '/', //외부에 있는것들이 어떻게 폴더를 기준으로 경로를 잡을지.  devServer.contentBase랑 같음
   },
   module: {
     // 어떤 파일을 가져와서 어떻게 변화시킬지
@@ -34,4 +35,8 @@ module.exports = {
       filename: 'index.html', //빌드된 html 파일이름
     }),
   ],
+  devServer: {
+    open: true, //자동으로 브라우저를 열어줌
+    historyApiFallback: true,
+  },
 }
